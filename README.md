@@ -26,7 +26,7 @@ Script Python que interage com o banco de dados em grafo Neo4j
 3. Configure o banco de dados: Coloque o documento .txt baixado na pasta 'Graphs_Neo4j'
 4. Altere o nome do arquivo de configuração no programa
     ```python
-    file_path = "<file_name>.txt"
+    file_path = "<file_name.txt>"
     ```
 
 5. Execute o programa
