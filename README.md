@@ -8,8 +8,6 @@ Script Python que interage com o banco de dados em grafo Neo4j
 - **Conta no Neo4j Aura:** Crie uma instância gratuita no [Neo4j Aura](https://neo4j.com/cloud/platform/aura-graph-database/?ref=nav-get-started-cta) para hospedar seu banco de dados
     - **IMPORTANTE: Faça download do arquivo .txt com as configurações do seu banco de dados**
 
-  
-
 ## Instalação e execução
 
 1. Clone o repositório
@@ -28,8 +26,9 @@ Script Python que interage com o banco de dados em grafo Neo4j
     ```python
     file_path = "<file_name.txt>"
     ```
-
-5. Execute o programa
+5. Utilize as funções para criar o grafo desejado
+   
+6. Execute o programa
     ```bash
     python3 connect_neo4j.py
     ```
