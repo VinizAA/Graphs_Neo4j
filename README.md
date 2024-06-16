@@ -15,16 +15,20 @@ Script Python que interage com o banco de dados em grafo Neo4j
    file_path = "<file_name>.txt"
    ```
 
-## Instalação
+## Instalação e execução
 
 1. Clone o repositório
-     ```bash
+    ```bash
     git clone https://github.com/VinizAA/Graphs_Neo4j.git
     cd Graphs_Neo4j
     ```
 
-3. Instale as dependências:
+2. Instale as dependências:
     ```bash
     pip install neo4j
     ```
-
+    
+3. Execute o programa
+   ```bash
+    python3 connect_neo4j.py
+    ```
